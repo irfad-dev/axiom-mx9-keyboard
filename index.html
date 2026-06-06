@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AXIOM MX-9 | Mechanical Keyboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<!-- CSS ফাইলটি যুক্ত করা হয়েছে -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">AXIOM</div>
+  <div class="nav-links">
+    <a href="#features">Features</a>
+    <a href="#specs">Specs</a>
+    <a href="#switches">Switches</a>
+    <a href="#buy">Buy</a>
+  </div>
+  <button class="nav-cta">Order Now</button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+
+  <div class="hero-tag">Introducing the MX-9 Series</div>
+  <h1 class="hero-title">TYPE<br><span>BEYOND</span><br>LIMITS</h1>
+  <p class="hero-sub">75% Wireless Mechanical Keyboard · Premium Build</p>
+
+  <!-- 3D KEYBOARD -->
+  <div class="keyboard-wrapper">
+    <div class="keyboard-scene">
+      <div class="keyboard-3d" id="mainKeyboard">
+        <div class="board">
+          <div class="led-strip"></div>
+
+          <!-- Knob -->
+          <div class="knob-area">
+            <div class="knob"></div>
+          </div>
+
+          <!-- Row 1: ESC + Fn row -->
+          <div class="key-row">
+            <div class="key key-u1"><div class="key-face red">ESC</div></div>
+            <div class="key key-u1"><div class="key-face"></div></div>
+            <div class="key key-u1"><div class="key-face">F1</div></div>
+            <div class="key key-u1"><div class="key-face">F2</div></div>
+            <div class="key key-u1"><div class="key-face">F3</div></div>
+            <div class="key key-u1"><div class="key-face">F4</div></div>
+            <div class="key key-u1"><div class="key-face">F5</div></div>
+            <div class="key key-u1"><div class="key-face">F6</div></div>
+            <div class="key key-u1"><div class="key-face">F7</div></div>
+            <div class="key key-u1"><div class="key-face">F8</div></div>
+            <div class="key key-u1"><div class="key-face">F9</div></div>
+            <div class="key key-u1"><div class="key-face">F10</div></div>
+            <div class="key key-u1"><div class="key-face">F11</div></div>
+            <div class="key key-u1"><div class="key-face">F12</div></div>
+            <div class="key key-u1"><div class="key-face blue">DEL</div></div>
+          </div>
+
+          <!-- Row 2: Number row -->
+          <div class="key-row" style="margin-top:8px">
+            <div class="key key-u1"><div class="key-face">`</div></div>
+            <div class="key key-u1"><div class="key-face">1</div></div>
+            <div class="key key-u1"><div class="key-face">2</div></div>
+            <div class="key key-u1"><div class="key-face">3</div></div>
+            <div class="key key-u1"><div class="key-face">4</div></div>
+            <div class="key key-u1"><div class="key-face">5</div></div>
+            <div class="key key-u1"><div class="key-face">6</div></div>
+            <div class="key key-u1"><div class="key-face">7</div></div>
+            <div class="key key-u1"><div class="key-face">8</div></div>
+            <div class="key key-u1"><div class="key-face">9</div></div>
+            <div class="key key-u1"><div class="key-face">0</div></div>
+            <div class="key key-u1"><div class="key-face">-</div></div>
+            <div class="key key-u1"><div class="key-face">=</div></div>
+            <div class="key key-u2"><div class="key-face accent">BKSP</div></div>
+          </div>
+
+          <!-- Row 3: QWERTY -->
+          <div class="key-row">
+            <div class="key key-u15"><div class="key-face accent">TAB</div></div>
+            <div class="key key-u1"><div class="key-face">Q</div></div>
+            <div class="key key-u1"><div class="key-face">W</div></div>
+            <div class="key key-u1"><div class="key-face">E</div></div>
+            <div class="key key-u1"><div class="key-face">R</div></div>
+            <div class="key key-u1"><div class="key-face">T</div></div>
+            <div class="key key-u1"><div class="key-face">Y</div></div>
+            <div class="key key-u1"><div class="key-face">U</div></div>
+            <div class="key key-u1"><div class="key-face">I</div></div>
+            <div class="key key-u1"><div class="key-face">O</div></div>
+            <div class="key key-u1"><div class="key-face">P</div></div>
+            <div class="key key-u1"><div class="key-face">[</div></div>
+            <div class="key key-u1"><div class="key-face">]</div></div>
+            <div class="key key-u15"><div class="key-face">\</div></div>
+          </div>
+
+          <!-- Row 4: ASDF -->
+          <div class="key-row">
+            <div class="key key-u175"><div class="key-face accent">CAPS</div></div>
+            <div class="key key-u1"><div class="key-face">A</div></div>
+            <div class="key key-u1"><div class="key-face">S</div></div>
+            <div class="key key-u1"><div class="key-face">D</div></div>
+            <div class="key key-u1"><div class="key-face">F</div></div>
+            <div class="key key-u1"><div class="key-face">G</div></div>
+            <div class="key key-u1"><div class="key-face">H</div></div>
+            <div class="key key-u1"><div class="key-face">J</div></div>
+            <div class="key key-u1"><div class="key-face">K</div></div>
+            <div class="key key-u1"><div class="key-face">L</div></div>
+            <div class="key key-u1"><div class="key-face">;</div></div>
+            <div class="key key-u1"><div class="key-face">'</div></div>
+            <div class="key key-u225"><div class="key-face red">ENTER</div></div>
+          </div>
+
+          <!-- Row 5: ZXCV -->
+          <div class="key-row">
+            <div class="key key-u225"><div class="key-face accent">SHIFT</div></div>
+            <div class="key key-u1"><div class="key-face">Z</div></div>
+            <div class="key key-u1"><div class="key-face">X</div></div>
+            <div class="key key-u1"><div class="key-face">C</div></div>
+            <div class="key key-u1"><div class="key-face">V</div></div>
+            <div class="key key-u1"><div class="key-face">B</div></div>
+            <div class="key key-u1"><div class="key-face">N</div></div>
+            <div class="key key-u1"><div class="key-face">M</div></div>
+            <div class="key key-u1"><div class="key-face">,</div></div>
+            <div class="key key-u1"><div class="key-face">.</div></div>
+            <div class="key key-u1"><div class="key-face">/</div></div>
+            <div class="key key-u275"><div class="key-face accent">SHIFT</div></div>
+          </div>
+
+          <!-- Row 6: Bottom -->
+          <div class="key-row">
+            <div class="key key-u125"><div class="key-face accent">CTRL</div></div>
+            <div class="key key-u1"><div class="key-face blue">WIN</div></div>
+            <div class="key key-u125"><div class="key-face">ALT</div></div>
+            <div class="key key-u625"><div class="key-face accent">SPACE</div></div>
+            <div class="key key-u1"><div class="key-face">ALT</div></div>
+            <div class="key key-u1"><div class="key-face">FN</div></div>
+            <div class="key key-u1"><div class="key-face blue">▲</div></div>
+            <div class="key key-u1"><div class="key-face blue">▼</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <div class="scroll-text">Scroll to Explore</div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-section">
+  <div class="marquee-track">
+    <div class="marquee-item"><span>✦</span> MECHANICAL PRECISION</div>
+    <div class="marquee-item"><span>✦</span> RGB LIGHTING</div>
+    <div class="marquee-item"><span>✦</span> WIRELESS FREEDOM</div>
+    <div class="marquee-item"><span>✦</span> HOT-SWAP SWITCHES</div>
+    <div class="marquee-item"><span>✦</span> ALUMINUM FRAME</div>
+    <div class="marquee-item"><span>✦</span> PROGRAMMABLE KEYS</div>
+    <div class="marquee-item"><span>✦</span> MECHANICAL PRECISION</div>
+    <div class="marquee-item"><span>✦</span> RGB LIGHTING</div>
+    <div class="marquee-item"><span>✦</span> WIRELESS FREEDOM</div>
+    <div class="marquee-item"><span>✦</span> HOT-SWAP SWITCHES</div>
+    <div class="marquee-item"><span>✦</span> ALUMINUM FRAME</div>
+    <div class="marquee-item"><span>✦</span> PROGRAMMABLE KEYS</div>
+  </div>
+</div>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="section-label reveal">01 — Features</div>
+  <h2 class="section-title reveal">BUILT FOR<br><em>PERFORMANCE</em></h2>
+
+  <div class="features-grid">
+    <div class="feature-card reveal">
+      <div class="feature-num">01</div>
+      <div class="feature-icon">⚡</div>
+      <div class="feature-name">Hot-Swap Switches</div>
+      <div class="feature-desc">Change your switches in seconds without soldering. Compatible with all MX-style switches for total customization.</div>
+      <div class="feature-tag">Tool-Free</div>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-num">02</div>
+      <div class="feature-icon">📡</div>
+      <div class="feature-name">Triple Mode Wireless</div>
+      <div class="feature-desc">Connect via Bluetooth 5.0, 2.4GHz dongle, or USB-C. Switch between 3 devices instantly with a single key press.</div>
+      <div class="feature-tag">2.4GHz Low Latency</div>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-num">03</div>
+      <div class="feature-icon">🌈</div>
+      <div class="feature-name">Per-Key RGB</div>
+      <div class="feature-desc">16.8 million colors with 20+ lighting effects. Each key individually programmable via the companion software.</div>
+      <div class="feature-tag">16.8M Colors</div>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-num">04</div>
+      <div class="feature-icon">🏗️</div>
+      <div class="feature-name">CNC Aluminum Frame</div>
+      <div class="feature-desc">Aircraft-grade 6061 aluminum chassis. Gasket mounted plate for that premium tactile feel and sound dampening.</div>
+      <div class="feature-tag">Gasket Mount</div>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-num">05</div>
+      <div class="feature-icon">🔋</div>
+      <div class="feature-name">8000mAh Battery</div>
+      <div class="feature-desc">Up to 3 months of wireless use on a single charge. Fast charging via USB-C gets you to 50% in 45 minutes.</div>
+      <div class="feature-tag">Fast Charge</div>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-num">06</div>
+      <div class="feature-icon">🎛️</div>
+      <div class="feature-name">Smart Volume Knob</div>
+      <div class="feature-desc">Premium aluminum rotary encoder for volume, media, or any custom function. Click to mute. Rotate to control.</div>
+      <div class="feature-tag">Programmable</div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECS -->
+<section id="specs">
+  <div class="section-label reveal">02 — Specifications</div>
+  <h2 class="section-title reveal">THE NUMBERS<br><em>DON'T LIE</em></h2>
+
+  <div class="specs-layout">
+    <div>
+      <div class="spec-item reveal">
+        <span class="spec-label">Layout</span>
+        <span class="spec-value">75% Compact <span>84 Keys</span></span>
+      </div>
+      <div class="spec-item reveal">
+        <span class="spec-label">Switch Mount</span>
+        <span class="spec-value">Hot-Swap <span>MX Compatible</span></span>
+      </div>
+      <div class="spec-item reveal">
+        <span class="spec-label">Wireless</span>
+        <span class="spec-value">BT 5.0 + <span>2.4GHz</span></span>
+      </div>
+      <div class="spec-item reveal">
+        <span class="spec-label">Polling Rate</span>
+        <span class="spec-value"><span>1000Hz</span> (USB) / 8ms (BT)</span>
+      </div>
+      <div class="spec-item reveal">
+        <span class="spec-label">Battery</span>
+        <span class="spec-value"><span>8000mAh</span> Li-Polymer</span>
+      </div>
+      <div class="spec-item reveal">
+        <span class="spec-label">Plate</span>
+        <span class="spec-value">Gasket Mount <span>PC Plate</span></span>
+      </div>
+      <div class="spec-item reveal">
+        <span class="spec-label">Dimensions</span>
+        <span class="spec-value">323 × 133 × <span>38mm</span></span>
+      </div>
+
+      <div class="stat-bar-wrap">
+        <div class="stat-bar-item">
+          <div class="stat-bar-label"><span>Typing Feel</span><span>98/100</span></div>
+          <div class="stat-bar-track"><div class="stat-bar-fill" data-width="98%"></div></div>
+        </div>
+        <div class="stat-bar-item">
+          <div class="stat-bar-label"><span>Build Quality</span><span>97/100</span></div>
+          <div class="stat-bar-track"><div class="stat-bar-fill blue" data-width="97%"></div></div>
+        </div>
+        <div class="stat-bar-item">
+          <div class="stat-bar-label"><span>Battery Life</span><span>95/100</span></div>
+          <div class="stat-bar-track"><div class="stat-bar-fill red" data-width="95%"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="specs-visual reveal" style="display:flex; flex-direction:column; gap:20px;">
+      <div class="spec-callout">
+        <div class="callout-num">0.2ms</div>
+        <div class="callout-desc">Response time via 2.4GHz — faster than most wired keyboards</div>
+      </div>
+      <div class="spec-callout" style="border-left-color: var(--accent3);">
+        <div class="callout-num" style="color: var(--accent3);">3 MO</div>
+        <div class="callout-desc">Battery life with RGB off — industry leading endurance</div>
+      </div>
+      <div class="spec-callout" style="border-left-color: var(--accent2);">
+        <div class="callout-num" style="color: var(--accent2);">100M</div>
+        <div class="callout-desc">Keystroke rating per switch — built to outlast the competition</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SWITCHES -->
+<section id="switches" style="max-width:100%; padding: 120px 0;">
+  <div class="switches-inner">
+    <div class="section-label reveal">03 — Switches</div>
+    <h2 class="section-title reveal">CHOOSE YOUR<br><em>FEEL</em></h2>
+
+    <div class="switch-cards">
+      <div class="switch-card reveal">
+        <div class="switch-visual red"><div class="switch-dot"></div></div>
+        <div class="switch-name">Linear Red</div>
+        <div class="switch-type">Linear · Silent</div>
+        <div class="switch-stat"><span class="stat-label">Actuation Force</span><span class="stat-val">45g</span></div>
+        <div class="switch-stat"><span class="stat-label">Pre-Travel</span><span class="stat-val">2.0mm</span></div>
+        <div class="switch-stat"><span class="stat-label">Total Travel</span><span class="stat-val">4.0mm</span></div>
+        <div class="switch-stat"><span class="stat-label">Best For</span><span class="stat-val">Gaming</span></div>
+      </div>
+
+      <div class="switch-card featured reveal">
+        <div class="switch-badge">Popular</div>
+        <div class="switch-visual brown"><div class="switch-dot"></div></div>
+        <div class="switch-name">Tactile Brown</div>
+        <div class="switch-type">Tactile · Quiet</div>
+        <div class="switch-stat"><span class="stat-label">Actuation Force</span><span class="stat-val">55g</span></div>
+        <div class="switch-stat"><span class="stat-label">Pre-Travel</span><span class="stat-val">2.0mm</span></div>
+        <div class="switch-stat"><span class="stat-label">Total Travel</span><span class="stat-val">4.0mm</span></div>
+        <div class="switch-stat"><span class="stat-label">Best For</span><span class="stat-val">Typing + Gaming</span></div>
+      </div>
+
+      <div class="switch-card reveal">
+        <div class="switch-visual yellow"><div class="switch-dot"></div></div>
+        <div class="switch-name">Speed Yellow</div>
+        <div class="switch-type">Linear · Ultra-Fast</div>
+        <div class="switch-stat"><span class="stat-label">Actuation Force</span><span class="stat-val">40g</span></div>
+        <div class="switch-stat"><span class="stat-label">Pre-Travel</span><span class="stat-val">1.2mm</span></div>
+        <div class="switch-stat"><span class="stat-label">Total Travel</span><span class="stat-val">3.5mm</span></div>
+        <div class="switch-stat"><span class="stat-label">Best For</span><span class="stat-val">Competitive Gaming</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RGB -->
+<section id="rgb" style="max-width:100%; padding:120px 60px; text-align:center;">
+  <div class="section-label reveal" style="justify-content:center; display:flex;">04 — RGB Lighting</div>
+  <h2 class="section-title reveal" style="text-align:center;">16.8 MILLION<br><em>COLORS</em></h2>
+
+  <div class="rgb-display reveal" style="position:relative; margin: 60px auto; max-width: 700px;">
+    <div class="rgb-glow-ring"></div>
+    <div class="keyboard-scene" style="position:relative; z-index:1;">
+      <div class="keyboard-3d" style="transform: rotateX(15deg) rotateY(0deg);">
+        <div class="board" style="background: linear-gradient(135deg, #1e1e2e 0%, #111118 40%, #0d0d18 100%);">
+          <div class="led-strip" style="background: linear-gradient(90deg, #ff3c5f, #e8ff00, #00d4ff, #e8ff00, #ff3c5f); animation: ledPulse 1.5s ease-in-out infinite;"></div>
+          <div style="display:flex; flex-direction:column; gap:5px; align-items:center;">
+            <!-- Mini key rows for RGB display -->
+            <div style="display:flex; gap:4px;">
+              <div class="key key-u1"><div class="key-face" style="background: linear-gradient(145deg, #3a1010, #250a0a); border-color: rgba(255,60,95,0.3);"></div></div>
+              <div class="key key-u1"><div class="key-face" style="background: linear-gradient(145deg, #3a2010, #251508); border-color: rgba(255,120,60,0.3);"></div></div>
+              <div class="key key-u1"><div class="key-face" style="background: linear-gradient(145deg, #3a3a10, #252510); border-color: rgba(232,255,0,0.3);"></div></div>
+              <div class="key key-u1"><div class="key-face" style="background: linear-gradient(145deg, #1a3a10, #0e2508); border-color: rgba(60,255,80,0.3);"></div></div>
+              <div class="key key-u1"><div class="key-face" style="background: linear-gradient(145deg, #0a3a20, #052515); border-color: rgba(0,200,120,0.3);"></div></div>
+              <div class="key key-u1"><div class="key-face" style="background: linear-gradient(145deg, #0a2a3a, #051825); border-color: rgba(0,180,255,0.3);"></div></div>
+              <div class="key key-u1"><div class="key-face" style="background: linear-gradient(145deg, #0a1a3a, #050e25); border-color: rgba(60,120,255,0.3);"></div></div>
+              <div class="key key-u1"><div class="key-face" style="background: linear-gradient(145deg, #1a1a3a, #0e0e25); border-color: rgba(120,80,255,0.3);"></div></div>
+              <div class="key key-u1"><div class="key-face" style="background: linear-gradient(145deg, #2a1a3a, #1a0e25); border-color: rgba(180,60,255,0.3);"></div></div>
+              <div class="key key-u1"><div class="key-face" style="background: linear-gradient(145deg, #3a1a30, #250e20); border-color: rgba(255,60,200,0.3);"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rgb-modes">
+    <div class="rgb-mode active">Wave</div>
+    <div class="rgb-mode">Static</div>
+    <div class="rgb-mode">Reactive</div>
+    <div class="rgb-mode">Breathing</div>
+    <div class="rgb-mode">Ripple</div>
+    <div class="rgb-mode">Aurora</div>
+    <div class="rgb-mode">Custom</div>
+  </div>
+</section>
+
+<!-- BUY -->
+<section id="buy" style="padding: 140px 60px; text-align: center; position:relative; overflow:hidden;">
+  <div class="cta-bg"></div>
+  <div style="position:relative; z-index:1;">
+    <div class="section-label reveal" style="justify-content:center; display:flex;">05 — Order Now</div>
+    <h2 class="section-title reveal" style="text-align:center;">OWN THE<br><em>BEST</em></h2>
+    <p style="color: var(--muted); font-size: 12px; letter-spacing: 2px; margin-top: 20px; opacity:0; transform:translateY(20px); transition: all 0.6s 0.15s ease;" class="reveal">Starting from</p>
+    <div class="price-display reveal">$<span>249</span></div>
+    <p style="color: var(--muted); font-size: 11px; letter-spacing: 1px; margin-bottom: 40px;" class="reveal">Free shipping worldwide · 2-year warranty · 30-day returns</p>
+    <div class="cta-buttons reveal">
+      <button class="btn-primary">Buy Now</button>
+      <button class="btn-secondary">Learn More</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">AXIOM</div>
+  <div class="footer-copy">© 2026 AXIOM Keyboards. All rights reserved.</div>
+</footer>
+
+<!-- JS ফাইলটি যুক্ত করা হয়েছে -->
+<script src="script.js"></script>
+</body>
+</html>
